@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	C:\Project\new_better\new_better\installer\Neonpulse.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Project\new_better\new_better\installer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.017.000_000
+Java max ver:	
+JRE paths:	jdk-17
+Check launcher:	C:\Project\new_better\new_better\installer\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000_018 / 64-Bit (OK)
+Launcher:	C:\Project\new_better\new_better\installer\jdk-17\bin\javaw.exe
+Launcher args:	-Djava.library.path=javafx-sdk --module-path javafx-sdk --add-modules javafx.controls,javafx.fxml,javafx.media -jar "C:\Project\new_better\new_better\installer\Neonpulse.exe"
+Args length:	174/32768 chars
+Exit code:	0

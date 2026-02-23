@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Project\new_better\new_better\installer\neonpulse.jar</jar>
+  <outfile>C:\Project\new_better\new_better\installer\Neonpulse.exe</outfile>
+  <errTitle>Neonpulse</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://adoptium.net/temurin/releases/?version=17</downloadUrl>
+  <supportUrl>https://github.com/shlok/NeonPulse/issues</supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Project\new_better\new_better\installer\wave-sound.ico</icon>
+  <jre>
+    <path>jdk-17</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17.0.0</minVersion>
+    <maxVersion></maxVersion>
+    <opt>-Djava.library.path=javafx-sdk</opt>
+    <opt>--module-path javafx-sdk</opt>
+    <opt>--add-modules javafx.controls,javafx.fxml,javafx.media</opt>
+  </jre>
+</launch4jConfig>
